@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  margin: auto;
+}
+
+form > input{
+  margin-bottom: 10px;
+  font-size: 1em;
+  height: 25px;
+}
+
+#logRef{
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+}
+
+#regRef{
+  position: absolute;
+  bottom: 0;
+  right: 40px; 
+}
+#regSubmit, #logSubmit{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+.container{
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  background-color: rgba(200,200,200,0.5);
+  width: 350px;
+  border-radius: 30px;
+
+}
+
